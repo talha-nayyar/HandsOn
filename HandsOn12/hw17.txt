@@ -1,0 +1,13 @@
+1 a) Aggregate Method:
+The total cost of inserting 𝑛 elements is 
+𝑂(𝑛)
+Amortized cost per insertion: 
+𝑂(1)
+
+1 b) Accounting Method:
+Charge each insertion 
+3 units: 
+1 for the actual insert
+2 saved to pay for future copies during resizing
+Amortized cost per insertion: 
+𝑂(1)
